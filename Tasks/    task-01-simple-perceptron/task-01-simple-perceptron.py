@@ -14,11 +14,11 @@ class Perceptron:
         return np.where(x >= 0, 1, -1)
 
     def predict(self, X):
-        X_bias = np.c_[np.ones(X.shape[0]), X]  # Add bias term
+        X_bias = np.c_[np.ones(X.shape[0]), X]
         return self.activation(np.dot(X_bias, self.weights))
 
     def fit(self, X, y):
-        X_bias = np.c_[np.ones(X.shape[0]), X]  # Add bias term
+        X_bias = np.c_[np.ones(X.shape[0]), X]
         
         for _ in range(self.epochs):
             for i in range(X.shape[0]):
