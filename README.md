@@ -1,4 +1,4 @@
-# Shell config on default.nix
+# Virtual Environment config on default.nix
 
 
 ### All python packages installed on virtual environment are listed bellow:
