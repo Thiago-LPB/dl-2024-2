@@ -1,7 +1,7 @@
 # Shell config on default.nix
 
 
-### All python packages used are listed on Pip_Packages.txt
+### All python packages installed on virtual environment are listed bellow:
 
 |Package                   | Version        |
 |--------------------------|----------------|
